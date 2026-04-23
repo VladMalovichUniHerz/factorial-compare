@@ -1,0 +1,66 @@
+# Виртуальное окружение
+venv/
+env/
+ENV/
+.env/
+
+# Файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Дистрибутивы / упаковка
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.pytest_cache
+test_results/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Логи и базы данных
+*.log
+*.sql
+*.sqlite
+
+# matplotlib figure
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Файлы окружения
+.env
+.venv
+.env.local
